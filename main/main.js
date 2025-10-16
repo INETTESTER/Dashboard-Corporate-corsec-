@@ -58,7 +58,7 @@ import { decrypt } from '../api/decrypt.js';
 
 export default function () {    //เรียกใช้ API ใน export default function
   // ================= SIEM ========================
-  //response = SIEM_Event_Summary_cosec()
+  response = SIEM_Event_Summary_cosec()
   //response = SIEM_Affected_Organizations_cosec()
   //response = SIEM_detail_cosec()
   //response = SIEM_export_cosec()
